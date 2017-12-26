@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7159E5FA1DB9E0D700761B59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7159E5F91DB9E0D700761B59 /* main.m */; };
+		7159E5FD1DB9E0D700761B59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7159E5FC1DB9E0D700761B59 /* AppDelegate.m */; };
+		7159E6001DB9E0D700761B59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7159E5FF1DB9E0D700761B59 /* ViewController.m */; };
+		7159E6031DB9E0D700761B59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7159E6011DB9E0D700761B59 /* Main.storyboard */; };
+		7159E6051DB9E0D700761B59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7159E6041DB9E0D700761B59 /* Assets.xcassets */; };
+		7159E6081DB9E0D700761B59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7159E6061DB9E0D700761B59 /* LaunchScreen.storyboard */; };
+		7159E6131DB9E0D700761B59 /* WZZTcpDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7159E6121DB9E0D700761B59 /* WZZTcpDemoTests.m */; };
+		7159E61E1DB9E0D700761B59 /* WZZTcpDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7159E61D1DB9E0D700761B59 /* WZZTcpDemoUITests.m */; };
+		7159E6331DB9F9E300761B59 /* WZZSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7159E6321DB9F9E300761B59 /* WZZSocketManager.m */; };
+		C507322D1FEB7A670086CCF6 /* WZZAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C507322B1FEB7A660086CCF6 /* WZZAsyncSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7159E60F1DB9E0D700761B59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7159E5ED1DB9E0D700761B59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7159E5F41DB9E0D700761B59;
+			remoteInfo = WZZTcpDemo;
+		};
+		7159E61A1DB9E0D700761B59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7159E5ED1DB9E0D700761B59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7159E5F41DB9E0D700761B59;
+			remoteInfo = WZZTcpDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7159E5F51DB9E0D700761B59 /* WZZTcpDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZZTcpDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7159E5F91DB9E0D700761B59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7159E5FB1DB9E0D700761B59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7159E5FC1DB9E0D700761B59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7159E5FE1DB9E0D700761B59 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7159E5FF1DB9E0D700761B59 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7159E6021DB9E0D700761B59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7159E6041DB9E0D700761B59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7159E6071DB9E0D700761B59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7159E6091DB9E0D700761B59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7159E60E1DB9E0D700761B59 /* WZZTcpDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZZTcpDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7159E6121DB9E0D700761B59 /* WZZTcpDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZZTcpDemoTests.m; sourceTree = "<group>"; };
+		7159E6141DB9E0D700761B59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7159E6191DB9E0D700761B59 /* WZZTcpDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZZTcpDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7159E61D1DB9E0D700761B59 /* WZZTcpDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZZTcpDemoUITests.m; sourceTree = "<group>"; };
+		7159E61F1DB9E0D700761B59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7159E6311DB9F9E300761B59 /* WZZSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZSocketManager.h; sourceTree = "<group>"; };
+		7159E6321DB9F9E300761B59 /* WZZSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZSocketManager.m; sourceTree = "<group>"; };
+		C507322B1FEB7A660086CCF6 /* WZZAsyncSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZZAsyncSocket.m; sourceTree = "<group>"; };
+		C507322C1FEB7A660086CCF6 /* WZZAsyncSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZZAsyncSocket.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7159E5F21DB9E0D700761B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7159E60B1DB9E0D700761B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7159E6161DB9E0D700761B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7159E5EC1DB9E0D700761B59 = {
+			isa = PBXGroup;
+			children = (
+				7159E5F71DB9E0D700761B59 /* WZZTcpDemo */,
+				7159E6111DB9E0D700761B59 /* WZZTcpDemoTests */,
+				7159E61C1DB9E0D700761B59 /* WZZTcpDemoUITests */,
+				7159E5F61DB9E0D700761B59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7159E5F61DB9E0D700761B59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7159E5F51DB9E0D700761B59 /* WZZTcpDemo.app */,
+				7159E60E1DB9E0D700761B59 /* WZZTcpDemoTests.xctest */,
+				7159E6191DB9E0D700761B59 /* WZZTcpDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7159E5F71DB9E0D700761B59 /* WZZTcpDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7159E5FB1DB9E0D700761B59 /* AppDelegate.h */,
+				7159E5FC1DB9E0D700761B59 /* AppDelegate.m */,
+				7159E5FE1DB9E0D700761B59 /* ViewController.h */,
+				7159E5FF1DB9E0D700761B59 /* ViewController.m */,
+				7159E6311DB9F9E300761B59 /* WZZSocketManager.h */,
+				7159E6321DB9F9E300761B59 /* WZZSocketManager.m */,
+				C507322C1FEB7A660086CCF6 /* WZZAsyncSocket.h */,
+				C507322B1FEB7A660086CCF6 /* WZZAsyncSocket.m */,
+				7159E6011DB9E0D700761B59 /* Main.storyboard */,
+				7159E6041DB9E0D700761B59 /* Assets.xcassets */,
+				7159E6061DB9E0D700761B59 /* LaunchScreen.storyboard */,
+				7159E6091DB9E0D700761B59 /* Info.plist */,
+				7159E5F81DB9E0D700761B59 /* Supporting Files */,
+			);
+			path = WZZTcpDemo;
+			sourceTree = "<group>";
+		};
+		7159E5F81DB9E0D700761B59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7159E5F91DB9E0D700761B59 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7159E6111DB9E0D700761B59 /* WZZTcpDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7159E6121DB9E0D700761B59 /* WZZTcpDemoTests.m */,
+				7159E6141DB9E0D700761B59 /* Info.plist */,
+			);
+			path = WZZTcpDemoTests;
+			sourceTree = "<group>";
+		};
+		7159E61C1DB9E0D700761B59 /* WZZTcpDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7159E61D1DB9E0D700761B59 /* WZZTcpDemoUITests.m */,
+				7159E61F1DB9E0D700761B59 /* Info.plist */,
+			);
+			path = WZZTcpDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7159E5F41DB9E0D700761B59 /* WZZTcpDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7159E6221DB9E0D700761B59 /* Build configuration list for PBXNativeTarget "WZZTcpDemo" */;
+			buildPhases = (
+				7159E5F11DB9E0D700761B59 /* Sources */,
+				7159E5F21DB9E0D700761B59 /* Frameworks */,
+				7159E5F31DB9E0D700761B59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZZTcpDemo;
+			productName = WZZTcpDemo;
+			productReference = 7159E5F51DB9E0D700761B59 /* WZZTcpDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7159E60D1DB9E0D700761B59 /* WZZTcpDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7159E6251DB9E0D700761B59 /* Build configuration list for PBXNativeTarget "WZZTcpDemoTests" */;
+			buildPhases = (
+				7159E60A1DB9E0D700761B59 /* Sources */,
+				7159E60B1DB9E0D700761B59 /* Frameworks */,
+				7159E60C1DB9E0D700761B59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7159E6101DB9E0D700761B59 /* PBXTargetDependency */,
+			);
+			name = WZZTcpDemoTests;
+			productName = WZZTcpDemoTests;
+			productReference = 7159E60E1DB9E0D700761B59 /* WZZTcpDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7159E6181DB9E0D700761B59 /* WZZTcpDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7159E6281DB9E0D700761B59 /* Build configuration list for PBXNativeTarget "WZZTcpDemoUITests" */;
+			buildPhases = (
+				7159E6151DB9E0D700761B59 /* Sources */,
+				7159E6161DB9E0D700761B59 /* Frameworks */,
+				7159E6171DB9E0D700761B59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7159E61B1DB9E0D700761B59 /* PBXTargetDependency */,
+			);
+			name = WZZTcpDemoUITests;
+			productName = WZZTcpDemoUITests;
+			productReference = 7159E6191DB9E0D700761B59 /* WZZTcpDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7159E5ED1DB9E0D700761B59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wzz;
+				TargetAttributes = {
+					7159E5F41DB9E0D700761B59 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = L3EKEXQ8PC;
+					};
+					7159E60D1DB9E0D700761B59 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7159E5F41DB9E0D700761B59;
+					};
+					7159E6181DB9E0D700761B59 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7159E5F41DB9E0D700761B59;
+					};
+				};
+			};
+			buildConfigurationList = 7159E5F01DB9E0D700761B59 /* Build configuration list for PBXProject "WZZTcpDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7159E5EC1DB9E0D700761B59;
+			productRefGroup = 7159E5F61DB9E0D700761B59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7159E5F41DB9E0D700761B59 /* WZZTcpDemo */,
+				7159E60D1DB9E0D700761B59 /* WZZTcpDemoTests */,
+				7159E6181DB9E0D700761B59 /* WZZTcpDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7159E5F31DB9E0D700761B59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7159E6081DB9E0D700761B59 /* LaunchScreen.storyboard in Resources */,
+				7159E6051DB9E0D700761B59 /* Assets.xcassets in Resources */,
+				7159E6031DB9E0D700761B59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7159E60C1DB9E0D700761B59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7159E6171DB9E0D700761B59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7159E5F11DB9E0D700761B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7159E6001DB9E0D700761B59 /* ViewController.m in Sources */,
+				7159E5FD1DB9E0D700761B59 /* AppDelegate.m in Sources */,
+				7159E5FA1DB9E0D700761B59 /* main.m in Sources */,
+				C507322D1FEB7A670086CCF6 /* WZZAsyncSocket.m in Sources */,
+				7159E6331DB9F9E300761B59 /* WZZSocketManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7159E60A1DB9E0D700761B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7159E6131DB9E0D700761B59 /* WZZTcpDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7159E6151DB9E0D700761B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7159E61E1DB9E0D700761B59 /* WZZTcpDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7159E6101DB9E0D700761B59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7159E5F41DB9E0D700761B59 /* WZZTcpDemo */;
+			targetProxy = 7159E60F1DB9E0D700761B59 /* PBXContainerItemProxy */;
+		};
+		7159E61B1DB9E0D700761B59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7159E5F41DB9E0D700761B59 /* WZZTcpDemo */;
+			targetProxy = 7159E61A1DB9E0D700761B59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7159E6011DB9E0D700761B59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7159E6021DB9E0D700761B59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7159E6061DB9E0D700761B59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7159E6071DB9E0D700761B59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7159E6201DB9E0D700761B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7159E6211DB9E0D700761B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7159E6231DB9E0D700761B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = L3EKEXQ8PC;
+				INFOPLIST_FILE = WZZTcpDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.fff;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		7159E6241DB9E0D700761B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = L3EKEXQ8PC;
+				INFOPLIST_FILE = WZZTcpDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.fff;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		7159E6261DB9E0D700761B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WZZTcpDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzz.WZZTcpDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZZTcpDemo.app/WZZTcpDemo";
+			};
+			name = Debug;
+		};
+		7159E6271DB9E0D700761B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WZZTcpDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzz.WZZTcpDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZZTcpDemo.app/WZZTcpDemo";
+			};
+			name = Release;
+		};
+		7159E6291DB9E0D700761B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WZZTcpDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzz.WZZTcpDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WZZTcpDemo;
+			};
+			name = Debug;
+		};
+		7159E62A1DB9E0D700761B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WZZTcpDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzz.WZZTcpDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WZZTcpDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7159E5F01DB9E0D700761B59 /* Build configuration list for PBXProject "WZZTcpDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7159E6201DB9E0D700761B59 /* Debug */,
+				7159E6211DB9E0D700761B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7159E6221DB9E0D700761B59 /* Build configuration list for PBXNativeTarget "WZZTcpDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7159E6231DB9E0D700761B59 /* Debug */,
+				7159E6241DB9E0D700761B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7159E6251DB9E0D700761B59 /* Build configuration list for PBXNativeTarget "WZZTcpDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7159E6261DB9E0D700761B59 /* Debug */,
+				7159E6271DB9E0D700761B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7159E6281DB9E0D700761B59 /* Build configuration list for PBXNativeTarget "WZZTcpDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7159E6291DB9E0D700761B59 /* Debug */,
+				7159E62A1DB9E0D700761B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7159E5ED1DB9E0D700761B59 /* Project object */;
+}
